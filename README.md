@@ -8,4 +8,4 @@
 
 ## GitHub Pages link is
 https://mattuzik.github.io/ToDo-App/
-your tasks will save only on your device or browser*
+### your tasks will save only on your device or browser*
