@@ -1,0 +1,20 @@
+@use 'helpers' as *;
+
+:root {
+  --color-dark: #000;
+  --color-white: #fff;
+  --color-gray: #d3d3d3;
+  --color-gray-dark: #474747;
+  --color-backgroung: #1b1b1b;
+
+  --color-white-blur: #ffffff40;
+
+  --container-width: 400px;
+  --container-padding-inline: 15px;
+
+  --font-family: "Nunito", sans-serif;
+
+  --transition-duration: 0.2s;
+
+  --border: 1px solid;
+}

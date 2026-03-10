@@ -1,0 +1,35 @@
+@use '../helpers' as *;
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  margin-block: 25vh;
+  // margin-block: rem(54);
+  row-gap: rem(18);
+
+  // border: 2px solid #00000080;
+  border-radius: rem(12);
+
+  min-height: rem(400);
+  padding: rem(30) rem(20);
+  
+  background-color: #00000085;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  &__title {
+    text-align: center;
+    font-weight: 700;
+  }
+
+  &__button {
+    background-color: var(--color-white-blur);
+    border: 2px solid #ffffff5b;
+    color: var(--color-white);
+    font-size: rem(24);
+    aspect-ratio: 1 / 1;
+    width: 12%;
+  }
+
+  border-radius: rem(20);
+}

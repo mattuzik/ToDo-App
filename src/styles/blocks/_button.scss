@@ -1,0 +1,14 @@
+@use '../helpers' as *;
+
+.button {
+  border-radius: 100%;
+  border: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
+}

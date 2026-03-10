@@ -1,0 +1,20 @@
+@use '../helpers' as *;
+
+.form {
+  display: flex;
+
+  gap: rem(8);
+
+  &__input {
+    background-color: var(--color-white-blur);
+    border-radius: rem(100);
+    padding: rem(7.25) rem(16);
+    font-weight: 350;
+    border: none;
+    width: 100%;
+
+    &, &::placeholder {
+      color: var(--color-gray);
+    }
+  }
+}
